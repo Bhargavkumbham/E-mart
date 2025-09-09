@@ -18,12 +18,13 @@ const   BookSingle = () => {
             </>
         );
     }
+    console.log('Book image:', product.image);
     return (
     <>
     <Navbar/>
     <div className="ind-section">
         <div className="ind-image">
-            <img src={product.image} alt=''/>
+            <img src={`/${product.image}`} alt=''/>
         </div>
         <div className="ind-details space">
             <div className="ind-company">

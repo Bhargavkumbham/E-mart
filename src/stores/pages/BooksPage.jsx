@@ -42,7 +42,6 @@ const BooksPage = () => {
                       <Link to={`/books/${item.id}`}>  
                     <div>
                         <img src={item.image} alt=''/>
-                        console.log(item.image)
                     </div>
                     </Link>
                     <div className='proModel'>
