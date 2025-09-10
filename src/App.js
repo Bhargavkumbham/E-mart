@@ -11,6 +11,8 @@ import MobileSingle from './singles/MobileSingle'
 import UserCart from './stores/UserCart'
 import ComputerSingle from './singles/ComputerSingle'
 import BookSingle from './singles/BookSingle'
+import FridgeSingle from './singles/FridgeSingle'
+import AcSingle from './singles/AcSingle'
 const App = () => {
   return (
     <div>
@@ -25,6 +27,8 @@ const App = () => {
         <Route path='/cart' element={<UserCart/>}></Route>
         <Route path='/computers/:id' element={<ComputerSingle/>}></Route>
         <Route path='/books/:id' element={<BookSingle/>}></Route>
+        <Route path='/fridges/:id' element={<FridgeSingle/>}></Route>
+        <Route path='/ac/:id' element={<AcSingle/>}></Route>
       </Routes>
     </div>
     
